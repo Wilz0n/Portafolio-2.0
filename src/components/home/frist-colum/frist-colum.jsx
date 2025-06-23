@@ -18,7 +18,7 @@ function Frist_colum() {
       <a href="" className='flex flex-col p-6 hover:text-white text-4xl h-full'>
 
         <div className='w-full flex justify-end'>
-          <img src="/img/icons/icons-profile/educacion.png" alt="education-icon" className='absolute left-50 bottom-6' width={190}/>
+          <img src="/img/icons/icons-profile/taza_blanca.png" alt="education-icon" className='absolute right-0 top-0' width={120}/>
         </div>
 
         <div className='flex-1 flex items-end'>

@@ -27,9 +27,8 @@ body {
 }
 
 .pixel-border {
-  position: relative;
-  padding: 16px;
   background-color: #1a1a1a;
+  border-radius: 1rem;
 }
 
 /* Estilo de borde pixel art */
@@ -49,6 +48,7 @@ body {
   background-repeat: no-repeat;
   pointer-events: none;
   border: 4px solid #FF003C;
+  border-radius: 1rem;
   box-shadow: 0 0 8px #FF003C;
 }
 

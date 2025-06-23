@@ -4,7 +4,7 @@ function Third_colum() {
   return (
     <>
     <article className='group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#3D2D42] relative rounded-[24px] h-full  col-span-2'>
-      <a href="" target='_blank' className='background glow-container blur-effect relative circle block'>
+      <a href="mailto:fishas02@gmail.com" target='_blank' className='background glow-container blur-effect relative circle block'>
         <div className='max-w-full p-6 h-[200px] cursor-pointer flex flex-col'>
           <div className='flex justify-end'>
             <img src="/img/icons/icons-profile/gmail-pixel-art.png" alt="" width="60px" height="60px"/>
@@ -22,7 +22,7 @@ function Third_colum() {
     </article>
 
     <article className='group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#3D2D42] relative rounded-[24px] h-full  col-span-2'>
-            <a href="" target='_blank' className='background glow-container blur-effect relative circle block'>
+            <a href="https://www.instagram.com/wils0nnn/" target='_blank' className='background glow-container blur-effect relative circle block'>
         <div className='max-w-full p-6 h-[200px] cursor-pointer flex flex-col'>
           <div className='flex justify-end'>
             <img src="/img/icons/icons-profile/instagram-icon.png" alt="" className='absolute right-0 top-1' width="100px"/>
@@ -40,7 +40,7 @@ function Third_colum() {
     </article>
 
     <article className='group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#3D2D42] relative rounded-[24px] h-full  col-span-2'>
-            <a href="" target='_blank' className='background glow-container blur-effect relative circle block'>
+            <a href="https://github.com/Wilz0n" target='_blank' className='background glow-container blur-effect relative circle block'>
         <div className='max-w-full p-6 h-[200px] cursor-pointer flex flex-col'>
           <div className='flex justify-end'>
             <img src="/img/icons/icons-profile/git-hub-icon.png" alt="" width="60px" height="60px"/>
@@ -58,7 +58,7 @@ function Third_colum() {
     </article>
     
     <article className='group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#3D2D42] relative rounded-[24px] h-full  col-span-2'>
-            <a href="" target='_blank' className='background glow-container blur-effect relative circle block'>
+            <a href="https://www.linkedin.com/in/javier-bernal-913133256/" target='_blank' className='background glow-container blur-effect relative circle block'>
         <div className='max-w-full p-6 h-[200px] cursor-pointer flex flex-col'>
           <div className='flex justify-end'>
             <img src="/img/icons/icons-profile/linkedin-icon.png" alt="" className='absolute right-0 top-1' width="100px"/>
