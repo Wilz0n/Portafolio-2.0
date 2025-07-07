@@ -22,6 +22,8 @@
 
 body {
   background: var(--background);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--foreground);
   font-family: "Pixelify Sans", sans-serif;
 }
