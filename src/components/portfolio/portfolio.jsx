@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import Description_Portfolio from "./description/description";
 
-export default function Portfolio () {
+export default function Portfolio() {
   return (
     <>
-    <h3>testo de pagina ekisde</h3>
+      <Description_Portfolio />
     </>
   );
 }
