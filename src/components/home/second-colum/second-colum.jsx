@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
 function Second_colum() {
   return (
@@ -21,7 +22,7 @@ function Second_colum() {
 
     <article className='group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#3D2D42] relative rounded-[24px] h-full  circle col-span-5'>
         <div className='flex items-center p-6'>
-            <a href="" className='hover:text-white'>
+            <Link href="/portfolio" className='hover:text-white'>
             <div className='flex flex-col h-full justify-center gap-4'>
                 <h2 className='text-4xl font-bold'>My portfolio</h2>
                 <div className='flex items-center gap-x-2'>
@@ -31,7 +32,7 @@ function Second_colum() {
                     </div>
                 </div>
             </div>
-            </a>
+            </Link>
         </div>
     </article>
 
