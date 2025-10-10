@@ -17,4 +17,3 @@ function Home_maquetado() {
 }
 
 export default Home_maquetado;
-
