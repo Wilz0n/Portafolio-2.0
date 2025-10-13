@@ -72,7 +72,7 @@ function Second_colum() {
       {/* Projects in Progress Card */}
       <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] relative rounded-[24px] h-full circle col-span-5">
         <div className="flex items-center p-6">
-          <Link href="#" className="hover:text-white">
+          <Link href="/projects-in-services" className="hover:text-white">
             <div className="flex flex-col h-full justify-center gap-4">
               <h2 className="text-4xl font-bold">Projects in Services</h2>
               <div className="flex items-center gap-x-2">

@@ -20,11 +20,7 @@ export default function Description_Portfolio() {
       </article>
       <article className="border-2 border-[#8b7355] rounded-lg p-6 mb-8 backdrop-blur mt-10">
         <h1 className="">
-          I'm Jezer Mejía, a software developer specialized in web development
-          and systems programming. I love to create things that everyone could
-          benefit of, investing my time in open source development. I also love
-          physics, science fiction and science related stuff in general. And, if
-          not noticed already, I love coffee.
+          descripcion para el apartado de portafolio ver en que lo voy a basar
         </h1>
       </article>
 

@@ -23,7 +23,7 @@ function Frist_colum() {
       </article>
       <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] relative rounded-[24px] h-full  circle row col-span-3">
         <Link
-          href="/portfolio"
+          href="/education"
           className="flex flex-col p-6 hover:text-white text-4xl h-full"
         >
           <div className="w-full flex justify-end">
