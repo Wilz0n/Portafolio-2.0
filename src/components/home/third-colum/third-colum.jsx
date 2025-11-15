@@ -4,7 +4,7 @@ import Link from "next/link";
 function Third_colum() {
   return (
     <>
-      <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] relative rounded-[24px] h-full  col-span-2">
+      <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] bg-[#252525] rounded-[24px] relative h-full col-span-2">
         <Link
           href="mailto:fishas02@gmail.com"
           target="_blank"
@@ -45,7 +45,7 @@ function Third_colum() {
         </Link>
       </article>
 
-      <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] relative rounded-[24px] h-full  col-span-2">
+      <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] bg-[#252525] rounded-[24px] relative h-full col-span-2">
         <Link
           href="https://www.instagram.com/wils0nnn/"
           target="_blank"
@@ -86,7 +86,7 @@ function Third_colum() {
         </Link>
       </article>
 
-      <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] relative rounded-[24px] h-full  col-span-2">
+      <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] bg-[#252525] rounded-[24px] relative h-full col-span-2">
         <Link
           href="https://github.com/Wilz0n"
           target="_blank"
@@ -127,7 +127,7 @@ function Third_colum() {
         </Link>
       </article>
 
-      <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] relative rounded-[24px] h-full  col-span-2">
+      <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] bg-[#252525] rounded-[24px] relative h-full col-span-2">
         <Link
           href="https://www.linkedin.com/in/javier-bernal-913133256/"
           target="_blank"

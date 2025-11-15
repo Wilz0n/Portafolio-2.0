@@ -5,7 +5,7 @@ function Second_colum() {
   return (
     <>
       {/* Discord Card */}
-      <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] relative rounded-[24px] h-full circle row-span-2 col-span-3 p-6">
+      <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] rounded-[24px] bg-[#252525] relative h-full row-span-2 col-span-3 p-6">
         <Link href="https://discord.gg/4eChXbNm" className="hover:text-white">
           <div className="absolute top-0 right-0 w-full h-full rounded-[24px] overflow-hidden">
             <img
@@ -40,7 +40,7 @@ function Second_colum() {
       </article>
 
       {/* Portfolio Card */}
-      <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] relative rounded-[24px] h-full circle col-span-5">
+      <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] rounded-[24px] bg-[#252525] relative h-full circle col-span-5">
         <div className="flex items-center p-6">
           <Link href="/portfolio" className="hover:text-white">
             <div className="flex flex-col h-full justify-center gap-4">
@@ -70,7 +70,7 @@ function Second_colum() {
       </article>
 
       {/* Projects in Progress Card */}
-      <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] relative rounded-[24px] h-full circle col-span-5">
+      <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] rounded-[24px] bg-[#252525] relative h-full circle col-span-5">
         <div className="flex items-center p-6">
           <Link href="/projects-in-services" className="hover:text-white">
             <div className="flex flex-col h-full justify-center gap-4">

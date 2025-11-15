@@ -4,12 +4,12 @@ import Link from "next/link";
 function Frist_colum() {
   return (
     <>
-      <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] relative rounded-[24px] h-full  circle col-span-5">
+      <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] rounded-[24px] bg-[#252525] relative h-full circle col-span-5">
         <div className="px-8 py-4 flex gap-x-4 items-center justify-center h-full">
           <img
             src="/img/Pixilart-avatar-profile.png"
             alt="profile-photo"
-            className="rounded-full aspect-square w-35 border-5 border-[#8b7355]"
+            className="rounded-full aspect-square w-35 border-4 border-[#8b7355]"
           />
           <div>
             <div className="flex flex-row items-center gap-x-2">
@@ -21,7 +21,7 @@ function Frist_colum() {
           </div>
         </div>
       </article>
-      <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] relative rounded-[24px] h-full  circle row col-span-3">
+      <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] rounded-[24px] bg-[#252525] relative h-full  circle row col-span-3">
         <Link
           href="/education"
           className="flex flex-col p-6 hover:text-white text-4xl h-full"
