@@ -25,7 +25,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--foreground);
-  font-family: "Pixelify Sans", sans-serif;
+  font-family: var(--font-pixelify), sans-serif; 
 }
 
 .pixel-border {
