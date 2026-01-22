@@ -13,7 +13,7 @@ function Third_colum() {
           <div className="max-w-full p-6 h-[200px] cursor-pointer flex flex-col">
             <div className="flex justify-end">
               <img
-                src="/img/icons/icons-profile/gmail-pixel-art.png"
+                src="/img/icons/icons-profile/gmail-icon.avif"
                 alt=""
                 width="60px"
                 height="60px"
@@ -54,7 +54,7 @@ function Third_colum() {
           <div className="max-w-full p-6 h-[200px] cursor-pointer flex flex-col">
             <div className="flex justify-end">
               <img
-                src="/img/icons/icons-profile/instagram-icon.png"
+                src="/img/icons/icons-profile/instagram-icon.avif"
                 alt=""
                 className="absolute right-0 top-1"
                 width="100px"
@@ -95,7 +95,7 @@ function Third_colum() {
           <div className="max-w-full p-6 h-[200px] cursor-pointer flex flex-col">
             <div className="flex justify-end">
               <img
-                src="/img/icons/icons-profile/git-hub-icon.png"
+                src="/img/icons/icons-profile/git-hub-icon.avif"
                 alt=""
                 width="60px"
                 height="60px"
@@ -136,7 +136,7 @@ function Third_colum() {
           <div className="max-w-full p-6 h-[200px] cursor-pointer flex flex-col">
             <div className="flex justify-end">
               <img
-                src="/img/icons/icons-profile/linkedin-icon.png"
+                src="/img/icons/icons-profile/linkedin-icon.avif"
                 alt=""
                 className="absolute right-0 top-1"
                 width="100px"

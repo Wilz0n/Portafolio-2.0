@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 
-export default function Project_Card({
+export default function Jobs_Card({
   image,
   title,
   description,

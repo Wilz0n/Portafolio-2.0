@@ -7,7 +7,7 @@ function Frist_colum() {
       <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] rounded-[24px] bg-[#252525] relative h-full circle col-span-5">
         <div className="px-8 py-4 flex gap-x-4 items-center justify-center h-full">
           <img
-            src="/img/Pixilart-avatar-profile.png"
+            src="/img/profile-pixel.avif"
             alt="profile-photo"
             className="rounded-full aspect-square w-35 border-4 border-[#8b7355]"
           />
@@ -28,7 +28,7 @@ function Frist_colum() {
         >
           <div className="w-full flex justify-end">
             <img
-              src="/img/icons/icons-profile/taza_blanca.png"
+              src="/img/icons/icons-profile/taza-icon.avif"
               alt="education-icon"
               className="absolute right-0 top-0"
               width={120}

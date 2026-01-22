@@ -9,7 +9,7 @@ export default function ProjectCard({
   description,
 }) {
   return (
-    <Link href="">
+    <Link href={href} className="block">
       <article className="border-2 border-[#8b7355] rounded-xl p-4 hover:border-[#4a4a4a] bg-[#252525] transition-colors cursor-pointer">
         <div className="flex justify-between items-center mb-3 text-xs text-[#8a8a8a]">
           <h3>{date}</h3>

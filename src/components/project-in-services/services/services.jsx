@@ -27,7 +27,7 @@ export default function Services() {
         <div className="grid md:grid-cols-2 gap-8 items-start ">
           <div className="relative bg-white/5 border border-[#d4a574] rounded-lg overflow-hidden p-4 transform">
             <img
-              src="/img/project-in-services/services/code-time.png"
+              src="/img/project-in-services/services/code-time.avif"
               alt="code-time-custom-web"
               className="w-full h-full rounded"
             />
@@ -94,7 +94,7 @@ export default function Services() {
           <div className="md:col-start-2">
             <div className="relative bg-white/5 border border-[#d4a574] rounded-lg overflow-hidden p-4 transform">
               <img
-                src="/img/project-in-services/services/sketch.png"
+                src="/img/project-in-services/services/sketch.avif"
                 alt="sketch-cms-custom"
                 className="w-full h-full rounded"
               />

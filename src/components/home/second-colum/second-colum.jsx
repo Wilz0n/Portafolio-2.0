@@ -6,10 +6,14 @@ function Second_colum() {
     <>
       {/* Discord Card */}
       <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] rounded-[24px] bg-[#252525] relative h-full row-span-2 col-span-3 p-6">
-        <Link href="https://discord.gg/4eChXbNm" className="hover:text-white">
+        <Link
+          href="https://discord.gg/BgUQcN9dzU"
+          className="hover:text-white"
+          target="_blank"
+        >
           <div className="absolute top-0 right-0 w-full h-full rounded-[24px] overflow-hidden">
             <img
-              src="/img/discord_pixel_art_completo.png"
+              src="/img/discord-pixel.avif"
               alt="discord-icon"
               className="absolute right-0 top-0"
               width={200}
@@ -42,7 +46,10 @@ function Second_colum() {
       {/* Portfolio Card */}
       <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] rounded-[24px] bg-[#252525] relative h-full circle col-span-5">
         <div className="flex items-center p-6">
-          <Link href="/portfolio" className="hover:text-white">
+          <Link
+            href="/portfolio"
+            className="hover:text-white"
+          >
             <div className="flex flex-col h-full justify-center gap-4">
               <h2 className="text-4xl font-bold">My portfolio</h2>
               <div className="flex items-center gap-x-2">
@@ -72,7 +79,10 @@ function Second_colum() {
       {/* Projects in Progress Card */}
       <article className="group text-[#E2E2E2] min-h-[200px] blur-effect border-2 border-[#8b7355] rounded-[24px] bg-[#252525] relative h-full circle col-span-5">
         <div className="flex items-center p-6">
-          <Link href="/projects-in-services" className="hover:text-white">
+          <Link
+            href="/projects-in-services"
+            className="hover:text-white"
+          >
             <div className="flex flex-col h-full justify-center gap-4">
               <h2 className="text-4xl font-bold">Projects in Services</h2>
               <div className="flex items-center gap-x-2">
