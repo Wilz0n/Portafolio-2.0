@@ -1,23 +1,23 @@
 
 export const educationData = {
-  1: {
+  Idat: {
     title: "Idat",
     date: "Dec 20, 2025, 12:23 PM",
     language: "English",
-    description: "How things have changed since the last time on my use of AI",
+    description: "My experience at Idat",
     content:
-      "This is a continuation to the 'My approach to AI' post.\n\nSome stuff have changed since the last time I talked about my AI usage, but some stuff have remained the same...\n\nI was just about to start building a PC for my Linux usage :c",
+      "I completed a course at Idat specializing in Front-end development, learning different frameworks and current practices used by companies to improve performance.",
     certificates: [
       { id: 1, title: "Certificate 1", type: "pdf", preview: "/img/education/idat/cert-idat.png", file: "/documents/education/idat/CERCURDIP-Javier-Bernal-1_8_2024-85848.pdf"}
     ],
   },
-  2: {
+  Platzi: {
     title: "Platzi Journey",
     date: "Jan 20, 2025, 10:00 AM",
     language: "Spanish",
     description: "My learning experience at Platzi",
     content:
-      "Dentro de Platzi es donde pude adquirir los conocimientos básicos...\n\nLa experiencia ha sido muy enriquecedora y me ha permitido crecer como desarrollador.",
+      "It was within Platzi that I acquired the basic knowledge which now allows me to face most of the challenges I have every day in this case. Platzi was the beginning of my journey to learn about the entire world of computing.",
     certificates: [
       { id: 1, title: "Certificate 1", type: "pdf", preview: "/img/education/platzi/cert-asicronismo-js.png", file: "/documents/education/platzi/diploma-asincronismo-js.pdf"},
       { id: 2, title: "Certificate 2", type: "pdf", preview: "/img/education/platzi/cert-basic-js.png", file: "/documents/education/platzi/diploma-basico-javascript.pdf"},
