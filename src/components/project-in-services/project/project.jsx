@@ -80,19 +80,6 @@ export default function Project() {
               },
             ]}
           />
-
-          <Project_Card
-            image="/img/project-in-services/project/project-calestia.avif"
-            title="Caelestia-Dots"
-            description="Web creator for creating high-quality, fast and high-modular creator."
-            links={[
-              {
-                href: "https://github.com/Wilz0n/caelestia-dots-config",
-                label: "GitHub",
-                icon: FaGithub,
-              },
-            ]}
-          />
         </div>
         <Jobs/>
       </article>
