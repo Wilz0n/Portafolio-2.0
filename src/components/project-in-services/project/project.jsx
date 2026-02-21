@@ -22,14 +22,16 @@ export default function Project() {
           className="bg-[#252525] border border-[#3a3a3a] hover:border-[#d4a574] text-[#e8e6e3] px-6 py-3 rounded-lg text-sm transition-colors"
           href="mailto:fishas02@gmail.com"
           type=""
+          target="_blank"
         >
           📧 Email me
         </a>
 
         <a
           className="bg-[#252525] border border-[#3a3a3a] hover:border-[#d4a574] text-[#e8e6e3] px-6 py-3 rounded-lg text-sm transition-colors"
-          href="/documents/Javier-Bernal-CV.pdf"
+          href="/documents/javier-bernal-acosta.pdf"
           type=""
+          target="_blank"
         >
           💼 Portfolio
         </a>
@@ -45,7 +47,7 @@ export default function Project() {
           <Project_Card
             image="/img/project-in-services/project/project-frist-portfolio.avif"
             title="First Portfolio"
-            description="Web creator for creating high-quality, fast and high-modular creator."
+            description="First portfolio created to demonstrate my web development skills."
             links={[
               {
                 href: "https://github.com/Wilz0n/PortafolioV4",
@@ -58,7 +60,7 @@ export default function Project() {
           <Project_Card
             image="/img/project-in-services/project/project-idat.avif"
             title="Ecomerce"
-            description="Web creator for creating high-quality, fast and high-modular creator."
+            description="Ecommerce website created for a high school project to test skills in React.js."
             links={[
               {
                 href: "https://github.com/Wilz0n/Idat-Examen-Final",
@@ -71,7 +73,7 @@ export default function Project() {
           <Project_Card
             image="/img/project-in-services/project/project-lazy-vim.avif"
             title="Config-Neovim (Lazyvim)"
-            description="Web creator for creating high-quality, fast and high-modular creator."
+            description="Personal configuration of Neovim along with Lazy-vim and various configurations according to one's needs."
             links={[
               {
                 href: "https://github.com/Wilz0n/test-nvim/tree/lazyvim",
