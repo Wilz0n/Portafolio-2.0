@@ -14,7 +14,7 @@ export default function Jobs () {
           <Jobs_Card
             image="/img/project-in-services/jobs/Job-Mined-World.avif"
             title="Mined-World"
-            description="Web creator for creating high-quality, fast and high-modular creator."
+            description="Page developed within the work to display information about it (blog)."
             links={[
               {
                 href: "https://mined.world/",
@@ -27,7 +27,7 @@ export default function Jobs () {
           <Jobs_Card
             image="/img/project-in-services/jobs/Job-GV.avif"
             title="Gianvictor"
-            description="Web creator for creating high-quality, fast and high-modular creator."
+            description="Ecommerce website developed with WordPress (WP) for selling books and learning subscriptions."
             links={[
               {
                 href: "https://gianvictorcueva.com/",
@@ -40,7 +40,7 @@ export default function Jobs () {
           <Jobs_Card
             image="/img/project-in-services/jobs/Job-FWP.avif"
             title="FWP"
-            description="Web creator for creating high-quality, fast and high-modular creator."
+            description="Blog page showcasing natural products, developed in WordPress."
             links={[
               {
                 href: "https://futureworldproducts.com/",
@@ -53,7 +53,7 @@ export default function Jobs () {
           <Jobs_Card
             image="/img/project-in-services/jobs/Job-Equipo-Gen.avif"
             title="Equipo-gen"
-            description="Web creator for creating high-quality, fast and high-modular creator."
+            description="Website for **Equipo GEN** showcasing a community that offers training, mentorship, and tools for entrepreneurship, network marketing, and personal development."
             links={[
               {
                 href: "https://equipogen.com/inicio",
@@ -66,7 +66,7 @@ export default function Jobs () {
           <Jobs_Card
             image="/img/project-in-services/jobs/Job-Orgaanika.avif"
             title="Orgaanika"
-            description="Web creator for creating high-quality, fast and high-modular creator."
+            description="WordPress-developed ecommerce platform for selling coffee in the USA."
             links={[
               {
                 href: "https://us.orgaanika.com/",
@@ -79,7 +79,7 @@ export default function Jobs () {
           <Jobs_Card
             image="/img/project-in-services/jobs/Job-WB.avif"
             title="Worldbinary"
-            description="Web creator for creating high-quality, fast and high-modular creator."
+            description="Blog page to demonstrate how an app for selling cryptocurrencies works."
             links={[
               {
                 href: "https://worldbinary.pro/",
