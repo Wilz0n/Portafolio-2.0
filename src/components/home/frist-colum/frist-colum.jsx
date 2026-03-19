@@ -16,7 +16,7 @@ function Frist_colum() {
               <h2 className="text-4xl font-bold">Hello!</h2>
             </div>
             <p className="text-[20px]">
-              Front-end developer looking to improve day by day.
+              Full-stack engineer building high-performance digital solutions.
             </p>
           </div>
         </div>
