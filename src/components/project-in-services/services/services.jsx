@@ -7,9 +7,7 @@ import {
   FaTerminal,
   FaGithub,
   FaShieldAlt,
-} from "react-icons/fa";
-
-import {
+  FaSitemap, // Importado una sola vez aquí
   FaWordpress,
   FaPalette,
   FaPuzzlePiece,
@@ -19,7 +17,9 @@ import {
 export default function Services() {
   return (
     <>
+
       {/* First part of Services */}
+
       <div className="pt-12 pb-1">
         <h1 className="text-4xl md:text-5xl text-center">SERVICES</h1>
       </div>
@@ -35,51 +35,54 @@ export default function Services() {
           <div className="space-y-6">
             <div className="border border-[#d4a574] rounded-lg p-6 bg-[#252525]">
               <h2 className="text-3xl font-bold text-[#d4a574] mb-4">
-                Custom Web Solutions
+                High-Performance Web & Automation Solutions
               </h2>
               <p className="text-xl leading-relaxed">
-                I create fast, modern, and responsive web experiences using
-                React, Next.js, or Astro — from landing pages to full business
-                platforms, built to match your goals and style.
+               I develop fast, scalable digital ecosystems using Next.js and Astro,
+                integrated with intelligent n8n workflows to automate business processes.
+                My focus is on creating high-conversion interfaces while eliminating manual 
+                tasks through API integrations and cloud infrastructure.
               </p>
               <p className="text-[#a8a8a8]">
-                With semantic HTML5, TailwindCSS, and clean JavaScript, I build
-                optimized and scalable interfaces. I also manage basic Linux
-                terminal setups for smooth and secure app deployment.
+              Utilizing Atomic Design with Tailwind CSS and secure Docker deployments, I ensure 
+              your platform is not only modern and responsive but also robust and autonomous. From 
+              Cloudflare security hardening to custom server management via Linux terminal, I build 
+              the engine that drives your business growth.
               </p>
             </div>
+
             <div className="space-y-4">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                 <div className="bg-[#252525] border border-[#d4a574] rounded-lg p-3 text-center transition-colors">
                   <FaLaptopCode className="w-8 h-8 mx-auto mb-2 text-[#d4a574]" />
-                  <p>Modern web design</p>
+                  <p>Fullstack Architecture</p>
                 </div>
 
                 <div className="bg-[#252525] border border-[#d4a574] rounded-lg p-3 text-center transition-colors">
                   <FaRocket className="w-8 h-8 mx-auto mb-2 text-[#d4a574]" />
-                  <p>Performance velocidad</p>
+                  <p>High-Speed SEO</p>
                 </div>
 
                 <div className="bg-[#252525] border border-[#d4a574] rounded-lg p-3 text-center transition-colors">
                   <FaMobileAlt className="w-8 h-8 mx-auto mb-2 text-[#d4a574]" />
-                  <p>Responsive adaptable</p>
+                  <p>UI/UX Engineering</p>
                 </div>
 
                 <div className="bg-[#252525] border border-[#d4a574] rounded-lg p-3 text-center transition-colors">
                   <FaCode className="w-8 h-8 mx-auto mb-2 text-[#d4a574]" />
-                  <p>Clean code escalabilidad</p>
+                  <p>Scalable Systems</p>
                 </div>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 <div className="bg-[#252525] border border-[#d4a574] rounded-lg p-4 text-center transition-colors">
                   <FaTerminal className="w-8 h-8 mx-auto mb-2 text-[#d4a574]" />
-                  <p>Server terminal</p>
+                  <p>Cloud Ops & Docker</p>
                 </div>
 
                 <div className="bg-[#252525] border border-[#d4a574] rounded-lg p-4 text-center transition-colors">
-                  <FaGithub className="w-8 h-8 mx-auto mb-2 text-[#d4a574]" />
-                  <p>Version control GitHub</p>
+                  <FaSitemap className="w-8 h-8 mx-auto mb-2 text-[#d4a574]" />
+                  <p>n8n Automation</p>
                 </div>
               </div>
             </div>
@@ -103,17 +106,19 @@ export default function Services() {
           <div className="space-y-6">
             <div className="border border-[#d4a574] rounded-lg p-6 bg-[#252525]">
               <h2 className="text-3xl font-bold text-[#d4a574] mb-4">
-                WordPress & CMS Development
+                Enterprise CMS Architecture & Web Operations
               </h2>
               <p className="text-xl leading-relaxed">
-                I build flexible and modern WordPress websites with custom
-                design and functionality — ideal for blogs, businesses, and
-                content-driven platforms.
+                I architect high-performance, scalable WordPress and Shopify Plus ecosystems designed 
+                for mission-critical business operations. My approach goes beyond standard development; 
+                I engineering custom themes and headless architectures that prioritize extreme loading speeds, 
+                SEO-ready structures, and long-term scalability.
               </p>
               <p className="text-[#a8a8a8]">
-                I craft clean themes, integrate plugins, and manage MySQL
-                databases using Git/GitHub for scalability. I also handle basic
-                Linux terminal tasks to keep your site stable and secure.
+                I specialize in the full lifecycle of a digital asset: from advanced MySQL/MariaDB optimization 
+                and Git/GitHub version control to secure deployments in Docker environments. Leveraging deep Linux (Arch/Ubuntu) 
+                expertise and terminal-based workflows, I provide proactive server-side stability, Cloudflare (WAF/DNS) hardening, 
+                and specialized Malware Removal services to ensure your platform remains resilient against any threat.
               </p>
             </div>
 
@@ -121,34 +126,34 @@ export default function Services() {
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                 <div className="bg-[#252525] border border-[#d4a574] rounded-lg p-3 text-center hover:border-[#d4a574] transition-colors">
                   <FaWordpress className="w-8 h-8 mx-auto mb-2 text-[#d4a574]" />
-                  <p>WordPress CMS</p>
+                  <p>Enterprise CMS</p>
                 </div>
 
                 <div className="bg-[#252525] border border-[#d4a574] rounded-lg p-3 text-center transition-colors">
                   <FaPalette className="w-8 h-8 mx-auto mb-2 text-[#d4a574]" />
-                  <p>Custom design themes</p>
+                  <p>Headless & UI Design</p>
                 </div>
 
                 <div className="bg-[#252525] border border-[#d4a574] rounded-lg p-3 text-center transition-colors">
                   <FaPuzzlePiece className="w-8 h-8 mx-auto mb-2 text-[#d4a574]" />
-                  <p>Plugins integracion</p>
+                  <p>API & Plugin Engineering</p>
                 </div>
 
                 <div className="bg-[#252525] border border-[#d4a574] rounded-lg p-3 text-center transition-colors">
                   <FaDatabase className="w-8 h-8 mx-auto mb-2 text-[#d4a574]" />
-                  <p>Database MySQL</p>
+                  <p>Data Management</p>
                 </div>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 <div className="bg-[#252525] border border-[#d4a574] rounded-lg p-4 text-center transition-colors">
                   <FaTerminal className="w-8 h-8 mx-auto mb-2 text-[#d4a574]" />
-                  <p>Linux terminal hosting</p>
+                  <p>Web Ops & Docker</p>
                 </div>
 
                 <div className="bg-[#252525] border border-[#d4a574] rounded-lg p-4 text-center transition-colors">
                   <FaShieldAlt className="w-8 h-8 mx-auto mb-2 text-[#d4a574]" />
-                  <p>Security maintenance</p>
+                  <p>WAF & Malware Defense</p>
                 </div>
               </div>
             </div>

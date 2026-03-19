@@ -19,7 +19,7 @@ export default function Description_Portfolio() {
           alt="discord-icon"
           className="rounded-full aspect-square w-50 border-4 border-[#8b7355]"
         />
-        <h1 className="text-center text-3xl mt-5">Hi! I'm Javier Bernal</h1>
+        <h1 className="text-center text-3xl mt-5">"I'm Javier Bernal Acosta. Fullstack Developer & Automation Specialist."</h1>
         <div className="flex gap-3 mt-6 group">
           <Link
             href="mailto:fishas02@gmail.com"
@@ -70,15 +70,15 @@ export default function Description_Portfolio() {
           </Link>
         </div>
       </article>
+
       <article className="border-2 border-[#8b7355] bg-[#252525] rounded-lg p-6 mb-8 backdrop-blur mt-10">
+
         <h1 className="">
-          Web developer with experience in React.js, Next.js, and Astro, focused
-          on building efficient and modern interfaces. Handling layout
-          frameworks such as Tailwind CSS and Bootstrap, along with version
-          control via Git/GitHub. Solid experience in WordPress, both in
-          development and in administration and optimization. Familiar with
-          Linux environments (Ubuntu) and server management via terminal,
-          focused on clean and automated deployments.
+          Fullstack Developer & Automation Specialist with nearly 4 years of experience building high-performance 
+          digital ecosystems. I specialize in developing modern interfaces with Next.js and Astro, while optimizing 
+          backend efficiency through n8n automation and Docker deployments. My expertise spans from managing secure 
+          cloud infrastructures in Cloudflare to resolving critical security issues and malware. I don't just build 
+          websites; I engineer scalable solutions that automate workflows and drive business growth.
         </h1>
       </article>
 

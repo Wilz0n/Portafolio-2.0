@@ -5,7 +5,7 @@ export default function Project_Card({
   image,
   title,
   description,
-  links = [], // Array de botones (cada uno con href, label, icon)
+  links = [],
 }) {
   return (
     <div className="bg-[#252525] border border-[#d4a574] rounded-lg overflow-hidden hover:border-[#8b7355] transition-colors">
@@ -13,7 +13,7 @@ export default function Project_Card({
         {image ? (
           <img src={image} alt={title} className="w-full h-full object-cover" />
         ) : (
-          <div className="text-[#d4a574] text-4xl">🧩</div> // fallback sin imagen
+          <div className="text-[#d4a574] text-4xl">🧩</div>
         )}
       </div>
 
