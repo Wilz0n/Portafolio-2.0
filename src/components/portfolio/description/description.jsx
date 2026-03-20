@@ -19,7 +19,7 @@ export default function Description_Portfolio() {
           alt="discord-icon"
           className="rounded-full aspect-square w-50 border-4 border-[#8b7355]"
         />
-        <h1 className="text-center text-3xl mt-5">"I'm Javier Bernal Acosta. Fullstack Developer & Automation Specialist."</h1>
+        <h1 className="text-center text-3xl mt-5">I'm Javier Bernal Acosta. Fullstack Developer & Automation Specialist.</h1>
         <div className="flex gap-3 mt-6 group">
           <Link
             href="mailto:fishas02@gmail.com"
