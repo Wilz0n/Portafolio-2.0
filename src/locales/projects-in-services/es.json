@@ -1,0 +1,78 @@
+{
+  "services": {
+    "title": "SERVICIOS",
+    "section1": {
+      "title": "Soluciones Web de Alto Rendimiento & Automatización",
+      "description": "Desarrollo ecosistemas digitales rápidos y escalables usando Next.js y Astro, integrados con flujos de trabajo inteligentes de n8n para automatizar procesos empresariales. Mi enfoque es crear interfaces de alta conversión mientras elimino tareas manuales mediante integraciones API e infraestructura cloud.",
+      "subdescription": "Utilizando Atomic Design con Tailwind CSS y despliegues seguros con Docker, aseguro que tu plataforma no solo sea moderna y responsive, sino también robusta y autónoma. Desde el hardening de seguridad con Cloudflare hasta la gestión personalizada de servidores vía terminal Linux, construyo el motor que impulsa el crecimiento de tu negocio.",
+      "tags": ["Arquitectura Fullstack", "SEO de Alta Velocidad", "Ingeniería UI/UX", "Sistemas Escalables"],
+      "bottomTags": ["Cloud Ops & Docker", "Automatización n8n"]
+    },
+    "section2": {
+      "title": "Arquitectura CMS Empresarial & Operaciones Web",
+      "description": "Diseño ecosistemas WordPress y Shopify Plus de alto rendimiento y escalables, diseñados para operaciones empresariales de misión crítica. Mi enfoque va más allá del desarrollo estándar; diseño temas personalizados y arquitecturas headless que priorizan velocidades de carga extremas, estructuras listas para SEO y escalabilidad a largo plazo.",
+      "subdescription": "Me especializo en el ciclo de vida completo de un activo digital: desde la optimización avanzada de MySQL/MariaDB y control de versiones con Git/GitHub hasta despliegues seguros en entornos Docker. Aprovechando mi profunda experiencia en Linux (Arch/Ubuntu) y flujos de trabajo basados en terminal, proporciono estabilidad proactiva del servidor, hardening de Cloudflare (WAF/DNS) y servicios especializados de eliminación de Malware para asegurar que tu plataforma permanezca resiliente ante cualquier amenaza.",
+      "tags": ["CMS Empresarial", "Headless & Diseño UI", "Ingeniería API & Plugins", "Gestión de Datos"],
+      "bottomTags": ["Web Ops & Docker", "WAF & Defensa Malware"]
+    }
+  },
+  "projects": {
+    "contactTitle": "¿Tienes alguna otra pregunta?",
+    "contactDescription": "Si tienes algún problema con desarrollo web, mantenimiento de software, programación de sistemas o cualquier consulta relacionada con software, no dudes en contactarme para que podamos discutir tu problema. También he incluido mi CV, que muestra la experiencia que he adquirido con el tiempo.",
+    "emailButton": "📧 Envíame un email",
+    "portfolioButton": "💼 Portafolio",
+    "cvLink": "/documents/Javier-Bernal-Acosta-ES.pdf",
+    "title": "Proyectos",
+    "items": [
+      {
+        "title": "Primer Portafolio",
+        "description": "Primer portafolio creado para demostrar mis habilidades en desarrollo web."
+      },
+      {
+        "title": "Ecomerce",
+        "description": "Sitio web de comercio electrónico creado para un proyecto escolar para probar habilidades en React.js."
+      },
+      {
+        "title": "Config-Neovim (Lazyvim)",
+        "description": "Configuración personal de Neovim junto con Lazy-vim y varias configuraciones según las necesidades propias."
+      }
+    ]
+  },
+  "jobs": {
+    "title": "Trabajos",
+    "items": [
+      {
+        "title": "Mined-World",
+        "description": "Página desarrollada dentro del trabajo para mostrar información sobre el mismo (blog)."
+      },
+      {
+        "title": "Gianvictor",
+        "description": "Sitio web de comercio electrónico desarrollado con WordPress (WP) para venta de libros y suscripciones de aprendizaje."
+      },
+      {
+        "title": "FWP",
+        "description": "Página de blog que muestra productos naturales, desarrollada en WordPress."
+      },
+      {
+        "title": "Equipo-gen",
+        "description": "Sitio web para **Equipo GEN** que muestra una comunidad que ofrece capacitación, mentoría y herramientas para emprendimiento, network marketing y desarrollo personal."
+      },
+      {
+        "title": "Orgaanika",
+        "description": "Plataforma de comercio electrónico desarrollada en WordPress para venta de café en EE.UU."
+      },
+      {
+        "title": "Worldbinary",
+        "description": "Página de blog para demostrar cómo funciona una app de venta de criptomonedas."
+      },
+      {
+        "title": "Identimax",
+        "description": "Página desarrollada con IA desde el diseño (https://stitch.withgoogle.com) hasta la conexion del mismo por MCP que ofrece este hasta la construccion completa con Claude."
+      },
+      {
+        "title": "UkiyoSteel",
+        "description": "Página de terceros para la principal (Identimax) misma construccion con IA (Construido con Claude) y diseño con (https://stitch.withgoogle.com)."
+      }
+    ]
+  }
+}

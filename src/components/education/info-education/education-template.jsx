@@ -1,6 +1,11 @@
+"use client";
+
 import Image from "next/image";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function EducationTemplate({ post }) {
+  const { t } = useLanguage();
+
   if (!post) return null;
 
   const { title, date, language, description, content, certificates } = post;
@@ -20,8 +25,8 @@ export default function EducationTemplate({ post }) {
         </h2>
 
         <div className="mt-3 text-sm text-neutral-400 space-y-1">
-          {date && <p>Posted on: {date}</p>}
-          {language && <p>Language: {language}</p>}
+          {date && <p>{t.education.postedOn}: {date}</p>}
+          {language && <p>{t.education.language}: {language}</p>}
           {description && (
             <p className="text-neutral-300">{description}</p>
           )}
@@ -44,7 +49,7 @@ export default function EducationTemplate({ post }) {
         <div className="mt-12">
           <div className="mb-4 flex items-center gap-3">
             <h3 className="text-lg font-semibold text-neutral-100">
-              Certificates
+              {t.education.certificates}
             </h3>
             <div className="h-px flex-1 bg-neutral-800" />
           </div>
@@ -78,7 +83,7 @@ export default function EducationTemplate({ post }) {
                       {/* Overlay PDF */}
                       <div className="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition">
                         <span className="rounded-md bg-neutral-900 px-3 py-1 text-xs font-medium text-neutral-100">
-                          View PDF
+                          {t.education.viewPdf}
                         </span>
                       </div>
                     </a>

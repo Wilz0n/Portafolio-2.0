@@ -1,0 +1,66 @@
+{
+  "education": {
+    "title": "Education",
+    "postedOn": "Posted on",
+    "language": "Language",
+    "certificates": "Certificates",
+    "viewPdf": "View PDF",
+    "postNotFound": "Post not found.",
+    "cards": {
+      "idat": {
+        "date": "Marz 18, 2024 / Jul 17, 2024",
+        "status": "Finalized",
+        "title": "Idat",
+        "description": "I completed a course at Idat specializing in Front-end development, learning different frameworks and current practices used by companies to improve performance."
+      },
+      "platzi": {
+        "date": "Enero 20, 2022",
+        "status": "Finalized",
+        "title": "Platzi",
+        "description": "It was within Platzi that I acquired the basic knowledge which now allows me to face most of the challenges I have every day in this case. Platzi was the beginning of my journey to learn about the entire world of computing."
+      },
+      "cibertec": {
+        "date": "Mayo 10, 2026",
+        "status": "I keep improving",
+        "title": "Cibertec",
+        "description": "Complementary studies to improve my skills in web and mobile app development with the Computer Science degree."
+      },
+      "coursera": {
+        "date": "Junio 12, 2026",
+        "status": "Proceso",
+        "title": "Coursera",
+        "description": "Automation of software deployment processes and optimization of IT workflows."
+      }
+    },
+    "data": {
+      "idat": {
+        "title": "Idat",
+        "date": "Dec 20, 2025, 12:23 PM",
+        "language": "English",
+        "description": "My experience at Idat",
+        "content": "I completed a course at Idat specializing in Front-end development, learning different frameworks and current practices used by companies to improve performance."
+      },
+      "platzi": {
+        "title": "Platzi Journey",
+        "date": "Jan 20, 2025, 10:00 AM",
+        "language": "English",
+        "description": "My learning experience at Platzi",
+        "content": "It was within Platzi that I acquired the basic knowledge which now allows me to face most of the challenges I have every day in this case. Platzi was the beginning of my journey to learn about the entire world of computing."
+      },
+      "cibertec": {
+        "title": "Cibertec",
+        "date": "May 10, 2026, 02:30 PM",
+        "language": "English",
+        "description": "COMPUTACIÓN E INFORMÁTICA",
+        "content": "PROGRESS"
+      },
+      "coursera": {
+        "title": "Coursera",
+        "date": "Jun 12, 2026, 09:34 PM",
+        "language": "English",
+        "description": "DevOps Engineer",
+        "content": "EN PROGRESO"
+      }
+    }
+  }
+}

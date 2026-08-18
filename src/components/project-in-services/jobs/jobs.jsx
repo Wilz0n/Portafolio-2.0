@@ -1,99 +1,53 @@
 "use client";
+
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import Jobs_Card from "./jobs-card.jsx";
+import { useLanguage } from "@/context/LanguageContext";
 
-export default function Jobs () {
-    return (
-      <div>
+export default function Jobs() {
+  const { t } = useLanguage();
+
+  const jobImages = [
+    "/img/project-in-services/jobs/Job-Mined-World.avif",
+    "/img/project-in-services/jobs/Job-GV.avif",
+    "/img/project-in-services/jobs/Job-FWP.avif",
+    "/img/project-in-services/jobs/Job-Equipo-Gen.avif",
+    "/img/project-in-services/jobs/Job-Orgaanika.avif",
+    "/img/project-in-services/jobs/Job-WB.avif",
+    "/img/project-in-services/jobs/Job-Identimax.avif",
+    "/img/project-in-services/jobs/Job-UkiyoSteel.avif",
+  ];
+
+  const jobLinks = [
+    [{ href: "https://mined.world/", label: "View", icon: FaExternalLinkAlt }],
+    [{ href: "https://gianvictorcueva.com/", label: "View", icon: FaExternalLinkAlt }],
+    [{ href: "https://futureworldproducts.com/", label: "View", icon: FaExternalLinkAlt }],
+    [{ href: "https://equipogen.com/inicio", label: "View", icon: FaExternalLinkAlt }],
+    [{ href: "https://us.orgaanika.com/", label: "View", icon: FaExternalLinkAlt }],
+    [{ href: "https://worldbinary.pro/", label: "View", icon: FaExternalLinkAlt }],
+    [{ href: "https://identimax.vercel.app/", label: "View", icon: FaExternalLinkAlt }],
+    [{ href: "https://ukiyo-steel-six.vercel.app/", label: "View", icon: FaExternalLinkAlt }],
+  ];
+
+  return (
+    <div>
       <article className="space-y-8 pt-12">
         <h2 className="text-3xl font-bold text-center text-[#d4a574]">
-         Jobs 
+          {t.jobs.title}
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <Jobs_Card
-            image="/img/project-in-services/jobs/Job-Mined-World.avif"
-            title="Mined-World"
-            description="Page developed within the work to display information about it (blog)."
-            links={[
-              {
-                href: "https://mined.world/",
-                label: "View",
-                icon: FaExternalLinkAlt,
-              },
-            ]}
-          />
-
-          <Jobs_Card
-            image="/img/project-in-services/jobs/Job-GV.avif"
-            title="Gianvictor"
-            description="Ecommerce website developed with WordPress (WP) for selling books and learning subscriptions."
-            links={[
-              {
-                href: "https://gianvictorcueva.com/",
-                label: "View",
-                icon: FaExternalLinkAlt,
-              },
-            ]}
-          />
-
-          <Jobs_Card
-            image="/img/project-in-services/jobs/Job-FWP.avif"
-            title="FWP"
-            description="Blog page showcasing natural products, developed in WordPress."
-            links={[
-              {
-                href: "https://futureworldproducts.com/",
-                label: "View",
-                icon: FaExternalLinkAlt,
-              },
-            ]}
-          />
-
-          <Jobs_Card
-            image="/img/project-in-services/jobs/Job-Equipo-Gen.avif"
-            title="Equipo-gen"
-            description="Website for **Equipo GEN** showcasing a community that offers training, mentorship, and tools for entrepreneurship, network marketing, and personal development."
-            links={[
-              {
-                href: "https://equipogen.com/inicio",
-                label: "View",
-                icon: FaExternalLinkAlt,
-              },
-            ]}
-          />
-
-          <Jobs_Card
-            image="/img/project-in-services/jobs/Job-Orgaanika.avif"
-            title="Orgaanika"
-            description="WordPress-developed ecommerce platform for selling coffee in the USA."
-            links={[
-              {
-                href: "https://us.orgaanika.com/",
-                label: "View",
-                icon: FaExternalLinkAlt,
-              },
-            ]}
-          />
-
-          <Jobs_Card
-            image="/img/project-in-services/jobs/Job-WB.avif"
-            title="Worldbinary"
-            description="Blog page to demonstrate how an app for selling cryptocurrencies works."
-            links={[
-              {
-                href: "https://worldbinary.pro/",
-                label: "View",
-                icon: FaExternalLinkAlt,
-              },
-            ]}
-          />
+          {t.jobs.items.map((item, index) => (
+            <Jobs_Card
+              key={index}
+              image={jobImages[index]}
+              title={item.title}
+              description={item.description}
+              links={jobLinks[index]}
+            />
+          ))}
         </div>
       </article>
-      </div>
-    )
-  }
-
-
-
-
+    </div>
+  );
+}

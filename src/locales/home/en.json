@@ -1,0 +1,11 @@
+{
+  "home": {
+    "greeting": "Hello!",
+    "description": "Fullstack Developer & Automation Specialist high-performance digital solutions.",
+    "education": "Education",
+    "portfolio": "My portfolio",
+    "portfolioSubtitle": "More information about me",
+    "projectsInServices": "Projects in Services",
+    "projectsSubtitle": "Projects in progress for deployment"
+  }
+}

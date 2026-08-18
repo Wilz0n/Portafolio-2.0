@@ -1,0 +1,78 @@
+{
+  "services": {
+    "title": "SERVICES",
+    "section1": {
+      "title": "High-Performance Web & Automation Solutions",
+      "description": "I develop fast, scalable digital ecosystems using Next.js and Astro, integrated with intelligent n8n workflows to automate business processes. My focus is on creating high-conversion interfaces while eliminating manual tasks through API integrations and cloud infrastructure.",
+      "subdescription": "Utilizing Atomic Design with Tailwind CSS and secure Docker deployments, I ensure your platform is not only modern and responsive but also robust and autonomous. From Cloudflare security hardening to custom server management via Linux terminal, I build the engine that drives your business growth.",
+      "tags": ["Fullstack Architecture", "High-Speed SEO", "UI/UX Engineering", "Scalable Systems"],
+      "bottomTags": ["Cloud Ops & Docker", "n8n Automation"]
+    },
+    "section2": {
+      "title": "Enterprise CMS Architecture & Web Operations",
+      "description": "I architect high-performance, scalable WordPress and Shopify Plus ecosystems designed for mission-critical business operations. My approach goes beyond standard development; I engineering custom themes and headless architectures that prioritize extreme loading speeds, SEO-ready structures, and long-term scalability.",
+      "subdescription": "I specialize in the full lifecycle of a digital asset: from advanced MySQL/MariaDB optimization and Git/GitHub version control to secure deployments in Docker environments. Leveraging deep Linux (Arch/Ubuntu) expertise and terminal-based workflows, I provide proactive server-side stability, Cloudflare (WAF/DNS) hardening, and specialized Malware Removal services to ensure your platform remains resilient against any threat.",
+      "tags": ["Enterprise CMS", "Headless & UI Design", "API & Plugin Engineering", "Data Management"],
+      "bottomTags": ["Web Ops & Docker", "WAF & Malware Defense"]
+    }
+  },
+  "projects": {
+    "contactTitle": "Do you have any other questions?",
+    "contactDescription": "If you have any issues with web development, software maintenance, systems programming, or any software-related query, please feel free to contact me so we can discuss your problem. I've also included my CV, which showcases the experience I've gained over time.",
+    "emailButton": "📧 Email me",
+    "portfolioButton": "💼 Portfolio",
+    "cvLink": "/documents/Javier-Bernal-Acosta-EN.pdf",
+    "title": "Project",
+    "items": [
+      {
+        "title": "First Portfolio",
+        "description": "First portfolio created to demonstrate my web development skills."
+      },
+      {
+        "title": "Ecomerce",
+        "description": "Ecommerce website created for a high school project to test skills in React.js."
+      },
+      {
+        "title": "Config-Neovim (Lazyvim)",
+        "description": "Personal configuration of Neovim along with Lazy-vim and various configurations according to one's needs."
+      }
+    ]
+  },
+  "jobs": {
+    "title": "Jobs",
+    "items": [
+      {
+        "title": "Mined-World",
+        "description": "Page developed within the work to display information about it (blog)."
+      },
+      {
+        "title": "Gianvictor",
+        "description": "Ecommerce website developed with WordPress (WP) for selling books and learning subscriptions."
+      },
+      {
+        "title": "FWP",
+        "description": "Blog page showcasing natural products, developed in WordPress."
+      },
+      {
+        "title": "Equipo-gen",
+        "description": "Website for **Equipo GEN** showcasing a community that offers training, mentorship, and tools for entrepreneurship, network marketing, and personal development."
+      },
+      {
+        "title": "Orgaanika",
+        "description": "WordPress-developed ecommerce platform for selling coffee in the USA."
+      },
+      {
+        "title": "Worldbinary",
+        "description": "Blog page to demonstrate how an app for selling cryptocurrencies works."
+      },
+      {
+        "title": "Identimax",
+        "description": "Page developed using AI, spanning from the initial design (https://stitch.withgoogle.com) and its connection via MCP to the complete build using Claude."
+      },
+      {
+        "title": "UkiyoSteel",
+        "description": "Third-party page for the main site (Identimax); built using AI (Claude) and designed with (https://stitch.withgoogle.com)."
+      }
+    ]
+  }
+}

@@ -1,7 +1,12 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
+import { useLanguage } from "@/context/LanguageContext";
 
 function Second_colum() {
+  const { t } = useLanguage();
+
   return (
     <>
       {/* Discord Card */}
@@ -51,9 +56,9 @@ function Second_colum() {
             className="hover:text-white"
           >
             <div className="flex flex-col h-full justify-center gap-4">
-              <h2 className="text-4xl font-bold">My portfolio</h2>
+              <h2 className="text-4xl font-bold">{t.home.portfolio}</h2>
               <div className="flex items-center gap-x-2">
-                <p className="text-xl">More information about me</p>
+                <p className="text-xl">{t.home.portfolioSubtitle}</p>
                 <div className="text-[#E2E2E2] stroke-[#0F0512] group-hover:stroke-white group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform pt-2">
                   <svg
                     width="24"
@@ -84,9 +89,9 @@ function Second_colum() {
             className="hover:text-white"
           >
             <div className="flex flex-col h-full justify-center gap-4">
-              <h2 className="text-4xl font-bold">Projects in Services</h2>
+              <h2 className="text-4xl font-bold">{t.home.projectsInServices}</h2>
               <div className="flex items-center gap-x-2">
-                <p className="text-xl">Projects in progress for deployment</p>
+                <p className="text-xl">{t.home.projectsSubtitle}</p>
                 <div className="text-[#E2E2E2] stroke-[#0F0512] group-hover:stroke-white group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform pt-2">
                   <svg
                     width="24"
