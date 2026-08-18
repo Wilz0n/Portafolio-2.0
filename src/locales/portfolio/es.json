@@ -1,0 +1,54 @@
+{
+  "portfolio": {
+    "title": "Soy Javier Bernal Acosta. Desarrollador Fullstack & Especialista en Automatización.",
+    "description": "Desarrollador Fullstack & Especialista en Automatización con casi 4 años de experiencia construyendo ecosistemas digitales de alto rendimiento. Me especializo en desarrollar interfaces modernas con Next.js y Astro, mientras optimizo la eficiencia del backend mediante automatización con n8n y despliegues Docker. Mi experiencia abarca desde la gestión de infraestructuras cloud seguras en Cloudflare hasta la resolución de problemas críticos de seguridad y malware. No solo construyo sitios web; diseño soluciones escalables que automatizan flujos de trabajo e impulsan el crecimiento empresarial.",
+    "work": "Trabajo",
+    "workDescription": "Actualmente trabajo como desarrollador Front-end",
+    "portfolioButton": "Portafolio",
+    "extraData": "Datos adicionales",
+    "extraDataList": ["- Perú", "- 22 años", "- nro: 922-094-521"],
+    "cvLink": "/documents/Javier-Bernal-Acosta-ES.pdf"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "frontend": {
+      "title": "Desarrollador Front-End",
+      "items": [
+        "- <b>Frameworks Modernos:</b> React, Next.js, Astro.",
+        "- <b>Estilos & Arquitectura: </b>Tailwind CSS, Sass, Atomic Design.",
+        "- <b>Experto CMS: </b>WordPress (Dev Personalizado), Shopify Plus.",
+        "- <b>SEO Optimizado: </b>SEO Técnico & Rendimiento.",
+        "- <b>Control de Versiones: </b>Git & GitHub."
+      ]
+    },
+    "automation": {
+      "title": "Automatización & Backend",
+      "items": [
+        "- <b>Flujos de trabajo: </b>Automatización con n8n.",
+        "- <b>Gestión de APIs: </b>Integración de APIs REST.",
+        "- <b>Infraestructura: </b>Docker (Despliegues & Contenedores).",
+        "- <b>Admin de Sistemas: </b>Terminal Linux (Ubuntu/Arch) para despliegues confiables."
+      ]
+    },
+    "webOps": {
+      "title": "Web Ops & Infraestructura",
+      "items": [
+        "- <b>Servicios Cloud: </b>Cloudflare (WAF/DNS/Caché).",
+        "- <b>Seguridad Web: </b>Seguridad Avanzada WordPress & Eliminación de Malware.",
+        "- <b>Optimización: </b>WPO (Optimización de Rendimiento Web).",
+        "- <b>Gestión de Datos: </b>SQL (MySQL/MariaDB) & Google Sheets API."
+      ]
+    },
+    "mobile": {
+      "title": "Desarrollo Móvil",
+      "items": ["- En Progreso"]
+    },
+    "design": {
+      "title": "Diseño",
+      "items": [
+        "- <b>Diseño a Código: </b>Uso intermedio-avanzado de Figma. Generación de estructuras de diseño mediante prompts y edición directa de código para desarrollo UI rápido y pixel-perfect.",
+        "- <b>Vectorización para Hardware: </b>Manipulación avanzada de vectores con Inkscape & Adobe Illustrator. Transformación de imágenes raster en trazados vectoriales detallados optimizados para corte láser y sistemas de renderizado."
+      ]
+    }
+  }
+}

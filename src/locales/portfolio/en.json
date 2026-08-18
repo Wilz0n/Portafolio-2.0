@@ -1,0 +1,54 @@
+{
+  "portfolio": {
+    "title": "I'm Javier Bernal Acosta. Fullstack Developer & Automation Specialist.",
+    "description": "Fullstack Developer & Automation Specialist with nearly 4 years of experience building high-performance digital ecosystems. I specialize in developing modern interfaces with Next.js and Astro, while optimizing backend efficiency through n8n automation and Docker deployments. My expertise spans from managing secure cloud infrastructures in Cloudflare to resolving critical security issues and malware. I don't just build websites; I engineer scalable solutions that automate workflows and drive business growth.",
+    "work": "Work",
+    "workDescription": "I currently work as a Front-end developer",
+    "portfolioButton": "Portfolio",
+    "extraData": "Extra data",
+    "extraDataList": ["- Perú", "- 22 years old", "- nro: 922-094-521"],
+    "cvLink": "/documents/Javier-Bernal-Acosta-EN.pdf"
+  },
+  "skills": {
+    "title": "Skills",
+    "frontend": {
+      "title": "Front-End Developer",
+      "items": [
+        "- <b>Modern Frameworks:</b> React, Next.js, Astro.",
+        "- <b>Styling & Architecture: </b>Tailwind CSS, Sass, Atomic Design.",
+        "- <b>CMS Expert: </b>WordPress (Custom Dev), Shopify Plus.",
+        "- <b>SEO-Optimized: </b>Technical SEO & Performance.",
+        "- <b>Version Control: </b>Git & GitHub."
+      ]
+    },
+    "automation": {
+      "title": "Automation & Backend",
+      "items": [
+        "- <b>Workflows: </b>Automation with n8n.",
+        "- <b>API Management: </b>Integration of REST APIs.",
+        "- <b>Infrastructure: </b>Docker (Deployments & Containers).",
+        "- <b>System Admin: </b>Linux Terminal (Ubuntu/Arch) for reliable deployments."
+      ]
+    },
+    "webOps": {
+      "title": "Web Ops & Infrastructure",
+      "items": [
+        "- <b>Cloud Services: </b>Cloudflare (WAF/DNS/Caché).",
+        "- <b>Web Security: </b>Advanced WordPress Security & Malware Removal.",
+        "- <b>Optimization: </b>WPO (Web Performance Optimization).",
+        "- <b>Data Management: </b>SQL (MySQL/MariaDB) & Google Sheets API."
+      ]
+    },
+    "mobile": {
+      "title": "Mobile development",
+      "items": ["- In Progress"]
+    },
+    "design": {
+      "title": "Design",
+      "items": [
+        "- <b>Design to Code: </b>Intermediate-advanced use of Figma. Generation of design structures via prompts and direct code editing for rapid, pixel-perfect UI development.",
+        "- <b>Vectorizing for Hardware: </b>Advanced vector manipulation with Inkscape & Adobe Illustrator. Transforming raster images into detailed vector paths optimized for laser cutting and rendering systems."
+      ]
+    }
+  }
+}
