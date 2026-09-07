@@ -41,9 +41,9 @@ export default function Skills_Portfolio() {
         </div>
 
         <div className="border-2 border-[#8b7355] bg-[#252525] rounded-lg p-6">
-          <h1 className="text-2xl mb-4 font-bold">{t.skills.mobile.title}</h1>
-          <ul className="text-2xl">
-            {t.skills.mobile.items.map((item, index) => (
+          <h1 className="text-2xl mb-4 font-bold">{t.skills.inteligencia.title}</h1>
+          <ul>
+            {t.skills.inteligencia.items.map((item, index) => (
               <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
             ))}
           </ul>

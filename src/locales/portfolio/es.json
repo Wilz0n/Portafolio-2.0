@@ -1,22 +1,22 @@
 {
   "portfolio": {
     "title": "Soy Javier Bernal Acosta. Desarrollador Fullstack & Especialista en Automatización.",
-    "description": "Desarrollador Fullstack & Especialista en Automatización con casi 4 años de experiencia construyendo ecosistemas digitales de alto rendimiento. Me especializo en desarrollar interfaces modernas con Next.js y Astro, mientras optimizo la eficiencia del backend mediante automatización con n8n y despliegues Docker. Mi experiencia abarca desde la gestión de infraestructuras cloud seguras en Cloudflare hasta la resolución de problemas críticos de seguridad y malware. No solo construyo sitios web; diseño soluciones escalables que automatizan flujos de trabajo e impulsan el crecimiento empresarial.",
+    "description": "Desarrollador Web Full Stack con más de 3 años de trayectoria combinando sólidas bases de ingeniería de software con la adopción e integración avanzada de Inteligencia Artificial (AI-Assisted Engineering). Especializado en la arquitectura e implementación de ecosistemas modernos basados en Next.js, React, Astro y soluciones Headless en WordPress (desarrollo de plugins a medida y consumo/expresiones de APIs REST de alto rendimiento). Potencio el flujo de diseño e ingeniería de software mediante la sinergia entre Figma, Stitch y flujos generativos de IA, acelerando el prototipado e implementación de arquitecturas UI/UX para paneles administrativos y sistemas CRM highly intuitivos. Experto en la orquestación e integración de MCP (Model Context Protocol) dentro de entornos IDE/agentes asistidos por IA, conectando contextos locales y herramientas de terceros para automatizar tareas complejas, optimizar la mantenibilidad del código y maximizar la velocidad de despliegue en el ciclo de vida del software (SDLC). Cuenta con amplia experiencia en automatización y WebOps (n8n / contenedorización en Docker), migraciones e integridad de bases de datos críticas, y el diseño de arquitecturas escalables para plataformas de comercio electrónico (Shopify / WooCommerce).",
     "work": "Trabajo",
-    "workDescription": "Actualmente trabajo como desarrollador Front-end",
+    "workDescription": "Actualmente trabajo como desarrollador Fullstack",
     "portfolioButton": "Portafolio",
     "extraData": "Datos adicionales",
-    "extraDataList": ["- Perú", "- 22 años", "- nro: 922-094-521"],
+    "extraDataList": ["- Perú", "- 23 años", "- nro: +51 922-094-521"],
     "cvLink": "/documents/Javier-Bernal-Acosta-ES.pdf"
   },
   "skills": {
     "title": "Habilidades",
     "frontend": {
-      "title": "Desarrollador Front-End",
+      "title": "Desarrollador Web & CMS",
       "items": [
         "- <b>Frameworks Modernos:</b> React, Next.js, Astro.",
         "- <b>Estilos & Arquitectura: </b>Tailwind CSS, Sass, Atomic Design.",
-        "- <b>Experto CMS: </b>WordPress (Dev Personalizado), Shopify Plus.",
+        "- <b>Experto CMS: </b>WordPress (Uso de mu-plugins, Creacion de plugins personalizados, Creacion de Rest Apis(para consultas personalizadas dentro del mismo WP), headles y woocomerce experto), Shopify Plus.",
         "- <b>SEO Optimizado: </b>SEO Técnico & Rendimiento.",
         "- <b>Control de Versiones: </b>Git & GitHub."
       ]
@@ -34,20 +34,25 @@
       "title": "Web Ops & Infraestructura",
       "items": [
         "- <b>Servicios Cloud: </b>Cloudflare (WAF/DNS/Caché).",
-        "- <b>Seguridad Web: </b>Seguridad Avanzada WordPress & Eliminación de Malware.",
-        "- <b>Optimización: </b>WPO (Optimización de Rendimiento Web).",
-        "- <b>Gestión de Datos: </b>SQL (MySQL/MariaDB) & Google Sheets API."
+        "- <b>Seguridad Web: </b>Seguridad Avanzada WordPress detección & Eliminación de Malware.",
+        "- <b>Bases de Datos & Datos: </b>SQL (MySQL/MariaDB), Migración avanzada de BD, Google Sheets Api (Uso de Google Cloud & Console)."
       ]
     },
-    "mobile": {
-      "title": "Desarrollo Móvil",
-      "items": ["- En Progreso"]
+    "inteligencia": {
+      "title": "Inteligencia Artificial & Automatización",
+      "items": [
+        "- <b>AI-Assisted Engineering: </b>MCP (Model Context Protocol), Stitch, Agentes/IDE asistidos por IA.",
+        "- <b>Flujos de Trabajo: </b>Automatización avanzada de procesos con n8n.",
+        "- <b>Gestión de APIs: </b>Integración y desarrollo de APIs REST / Custom Endpoints.",
+        "- <b>Infraestructura: </b>Docker (Despliegues & Contenedores), WebOps."
+      ]
     },
     "design": {
-      "title": "Diseño",
+      "title": "Diseño & UI/UX",
       "items": [
-        "- <b>Diseño a Código: </b>Uso intermedio-avanzado de Figma. Generación de estructuras de diseño mediante prompts y edición directa de código para desarrollo UI rápido y pixel-perfect.",
-        "- <b>Vectorización para Hardware: </b>Manipulación avanzada de vectores con Inkscape & Adobe Illustrator. Transformación de imágenes raster en trazados vectoriales detallados optimizados para corte láser y sistemas de renderizado."
+        "- <b>Prototipado Inteligente: </b>Uso avanzado de Figma & Stitch asistido por IA para prototipado rápido de CRM y dashboards.",
+        "- <b>Diseño a Código: </b>Generación e implementación de componentes UI pixel-perfect.",
+        "- <b>Vectorización & Gráficos: </b>Inkscape & Illustrator (Vectorización avanzada para renderizado y hardware)."
       ]
     }
   }
